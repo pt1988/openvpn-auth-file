@@ -21,6 +21,13 @@ username-as-common-name
 3. Generate your username and password (you can use this site http://www.htaccesstools.com/htpasswd-generator/) and put it to /etc/openvpn/passwd
 4. Restart openvpn
 
+## CentOS
+
+```
+yum install perl-Apache-Htpasswd
+yum install perl-Crypt-PasswdMD5
+```
+
 ## Testing
 
 This script has been tested on currently stable Debian (wheezy).
